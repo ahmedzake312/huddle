@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  background: rgb(244, 249, 252);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1100px;
+  overflow: hidden;
+  margin: auto;
+  padding: 0 2rem;
+}
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.logo {
+  width: 150px;
+  height: 25px;
+}
+
+.nav-btn {
+  background: #fff5ff;
+  padding: 0.9rem 1.5rem;
+  color: rgb(208, 0, 219);
+  font-size: 0.9rem;
+}
+
+.section-a {
+  margin: 4rem 0 4rem 0;
+  position: relative;
+}
+
+.section-a h1 {
+  font-size: 18px;
+}
+
+.section-a p {
+  font-size: 0.8rem;
+  color: rgb(141, 143, 145);
+}
+
+.btn {
+  background: rgb(252, 109, 209);
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: rgb(252, 220, 251);
+  margin: 1rem 0;
+}
+
+.section-b {
+  display: flex;
+  algin-items: center;
+  justify-content: center;
+}
+
+.section-b div {
+  display: grid;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-b h1 {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.section-b p {
+  font-size: 0.8rem;
+  color: rgb(141, 143, 145);
+  margin: 0;
+}
+
+.section-c {
+  height: 100vh;
+  display: flex;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-c .box {
+  background: white;
+  padding: 3rem 5rem;
+  box-shadow: 2px 2px 50px #e3dcdc;
+}
+.section-c .box p {
+  font-size: 0.8rem;
+  color: rgb(141, 143, 145);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  background: #1e1e1f;
+  color: #fff8f7;
+  padding: 3rem 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.footer a,
+.footer p {
+  color: #fff8f7;
+  font-size: 0.8rem;
+}
+
+.box-1 p {
+  font-size: 0.6rem;
+}
+
+.footer i {
+  margin: 0 1rem;
+}
+
+.footer input {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 375px) {
+  .section-b {
+    display: block;
+  }
+  .section-b img {
+    margin: 4rem 0;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer ul {
+    padding: 0;
+    margin: 0;
+  }
+  .box-4 {
+    margin: 3rem 0;
+  }
+  .footer ul li {
+    text-align: left;
+    font-size: 1rem;
+  }
+  .footer a {
+    font-size: 1.3rem;
+  }
+
+  .footer .box-1 {
+    order: 4;
+    margin-top: 2rem;
+  }
+  .footer input {
+    padding: 0.5rem 1rem;
+  }
+}
