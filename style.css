@@ -3,7 +3,7 @@ body {
   padding: 0;
   border: 0;
   font-size: 18px;
-  background: rgb(244, 249, 252);
+  background: rgb(244, 249, 252) url("https://cdn.glitch.com/306d873e-8b7b-4f70-8da8-b569a0e5006c%2Fbg.png?v=1570652382771") no-repeat;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
@@ -49,7 +49,8 @@ nav {
 }
 
 .section-a {
-  margin: 4rem 0 4rem 0;
+  margin: 5rem 0 5rem 0;
+  
   position: relative;
 }
 
@@ -151,6 +152,9 @@ ul {
 }
 
 @media (max-width: 375px) {
+  body{
+    background:url("https://cdn.glitch.com/306d873e-8b7b-4f70-8da8-b569a0e5006c%2Fbgm.png?v=1570654183662") no-repeat;
+  }
   .section-b {
     display: block;
   }
